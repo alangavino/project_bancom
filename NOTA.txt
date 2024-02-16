@@ -1,0 +1,7 @@
+Ejecutar contenedor docker
+primer paso compilar la fuente mvn package
+segundo paso ubicarse donde se encuentra nuestro archivo dockerfile usualmente es en la raiz de nuestra aplicacion y ejecutar
+comandos docker para crear y ejecutar el contenedor de docker.
+
+docker build -t bancom-reto:latest .
+docker run -p 8080:80 bancom-reto
